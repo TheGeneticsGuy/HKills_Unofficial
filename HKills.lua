@@ -3,7 +3,7 @@
 hkills = {};
 
 local HKFrame = CreateFrame("Frame", nil, UIParent );
-HKFrame.Backdrop = CreateFrame("Frame", "HKFrameBackdrop", HKFrame , "BackdropTemplate" );
+HKFrame.Backdrop = CreateFrame("Frame", "HKFrameBackdrop", HKFrame , BackdropTemplateMixin and "BackdropTemplate" );
 
 local menuFrame = CreateFrame("Frame", "HKills1", UIParent, "UIDropDownMenuTemplate")
 
@@ -31,12 +31,11 @@ local menu = {
 }
 
 
-
 HKFrame:SetFrameStrata("BACKGROUND");
 HKFrame:SetWidth(185) ;
 HKFrame:SetHeight(85);
 HKFrame:SetPoint("CENTER", "UIParent");
-HKFrame.text = HKFrame.Backdrop:CreateFontString ( nil, "BACKROUND", "GameFontNormalLarge");
+HKFrame.text = HKFrame.Backdrop:CreateFontString ( nil, "OVERLAY", "GameFontNormalLarge" );
 HKFrame.text:SetTextColor(1, 0.2, 0.3);
 HKFrame.text:SetWidth(185);
 HKFrame.text:SetHeight(85);
