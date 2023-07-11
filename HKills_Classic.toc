@@ -1,6 +1,6 @@
 ## Interface: 11403
 ## Title: .|TInterface\Addons\HKills\assets\Horde_32:0|t Hkills |TInterface\Addons\HKills\assets\Horde_32:0|t
-## Version: 10.0.7
+## Version: 10.0.8
 ## Author: Buzilko@Deathguard / Medishe@Gordunni
 ## SavedVariablesPerCharacter: hkills
 ## Notes: Добро пожаловать в сообщество |cFFC41F3B Эшелон |r https://discord.gg/fwZzkTp
