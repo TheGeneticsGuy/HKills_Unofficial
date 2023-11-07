@@ -1,4 +1,4 @@
-## Interface: 30402
+## Interface: 30403
 ## Title: .|TInterface\Addons\HKills\assets\Horde_32:0|t Hkills |TInterface\Addons\HKills\assets\Horde_32:0|t
 ## Version: 10.0.9
 ## Author: Buzilko@Deathguard / Medishe@Gordunni
